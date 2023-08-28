@@ -1,2 +1,4 @@
-# ansible-tutorial
-Small tutorial about using Ansible
+# Ansible Tutorial
+
+Ansible is a suite of software tools that enables **infrastructure as code**.
+
