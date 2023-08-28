@@ -1,0 +1,11 @@
+##
+# My First Ansible Playbook
+##
+---
+- name: My first playbook
+  hosts: localhost
+  tasks:
+  - name: Install git
+    ansible.builtin.package:
+      name: git
+      state: latest
