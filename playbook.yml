@@ -5,7 +5,9 @@
 - name: My first playbook
   hosts: localhost
   tasks:
-  - name: Install git
+  - name: Install my dev tools
     ansible.builtin.package:
-      name: git
+      name: 
+       - git
+       - python3
       state: latest
